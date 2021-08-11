@@ -1,0 +1,10 @@
+EVENT,Fill out expense report
+EVENT,Reject
+EVENT,Payout
+EVENT,Approve
+EVENT,Hello
+EXCLUDE,Reject,Payout
+INCLUDE,Approve,Payout
+CONDITION,Approve,Payout
+EXCLUDE,Fill out expense report,Fill out expense report
+RESPONSE,Hello,Hello

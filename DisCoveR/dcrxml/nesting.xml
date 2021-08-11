@@ -1,0 +1,340 @@
+<dcrgraph title="Nesting Test for DisCoveR import" dataTypesStatus="hide"  filterLevel="-1" zoomLevel="0" formGroupStyle="Normal" formLayoutStyle="Horizontal" graphBG="#EBEBEB">
+    <specification>
+        <resources>
+            <events>
+                <event id="Activity0" type="nesting" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="425" yLoc="250" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>1</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                    <event id="Activity1" >
+                        <custom>
+                            <visualization>
+                                <location xLoc="450" yLoc="300" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role />
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <level>1</level>
+                            <sequence>2</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity2" >
+                        <custom>
+                            <visualization>
+                                <location xLoc="600" yLoc="300" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role />
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <level>1</level>
+                            <sequence>3</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                </event>
+                <event id="Activity3" type="nesting" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="800" yLoc="475" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>4</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                    <event id="Activity5" >
+                        <custom>
+                            <visualization>
+                                <location xLoc="825" yLoc="575" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role />
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <level>1</level>
+                            <sequence>6</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                    </event>
+                    <event id="Activity6" type="nesting" >
+                        <custom>
+                            <visualization>
+                                <location xLoc="975" yLoc="525" />
+                                <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                            </visualization>
+                            <roles>
+                                <role />
+                            </roles>
+                            <groups>
+                                <group />
+                            </groups>
+                            <phases>
+                                <phase />
+                            </phases>
+                            <eventType></eventType>
+                            <eventScope>private</eventScope>
+                            <eventTypeData></eventTypeData>
+                            <eventDescription></eventDescription>
+                            <purpose></purpose>
+                            <guide></guide>
+                            <level>1</level>
+                            <sequence>7</sequence>
+                            <costs>0</costs>
+                            <eventData></eventData>
+                            <interfaces></interfaces>
+                        </custom>
+                        <event id="Activity7" >
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1000" yLoc="575" />
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                </visualization>
+                                <roles>
+                                    <role />
+                                </roles>
+                                <groups>
+                                    <group />
+                                </groups>
+                                <phases>
+                                    <phase />
+                                </phases>
+                                <eventType></eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData></eventTypeData>
+                                <eventDescription></eventDescription>
+                                <purpose></purpose>
+                                <guide></guide>
+                                <level>1</level>
+                                <sequence>8</sequence>
+                                <costs>0</costs>
+                                <eventData></eventData>
+                                <interfaces></interfaces>
+                            </custom>
+                        </event>
+                        <event id="Activity8" >
+                            <custom>
+                                <visualization>
+                                    <location xLoc="1150" yLoc="575" />
+                                    <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                                </visualization>
+                                <roles>
+                                    <role />
+                                </roles>
+                                <groups>
+                                    <group />
+                                </groups>
+                                <phases>
+                                    <phase />
+                                </phases>
+                                <eventType></eventType>
+                                <eventScope>private</eventScope>
+                                <eventTypeData></eventTypeData>
+                                <eventDescription></eventDescription>
+                                <purpose></purpose>
+                                <guide></guide>
+                                <level>1</level>
+                                <sequence>9</sequence>
+                                <costs>0</costs>
+                                <eventData></eventData>
+                                <interfaces></interfaces>
+                            </custom>
+                        </event>
+                    </event>
+                </event>
+                <event id="Activity4" >
+                    <custom>
+                        <visualization>
+                            <location xLoc="550" yLoc="575" />
+                            <colors bg="#f9f7ed" textStroke="#000000" stroke="#cccccc" />
+                        </visualization>
+                        <roles>
+                            <role />
+                        </roles>
+                        <groups>
+                            <group />
+                        </groups>
+                        <phases>
+                            <phase />
+                        </phases>
+                        <eventType></eventType>
+                        <eventScope>private</eventScope>
+                        <eventTypeData></eventTypeData>
+                        <eventDescription></eventDescription>
+                        <purpose></purpose>
+                        <guide></guide>
+                        <level>1</level>
+                        <sequence>5</sequence>
+                        <costs>0</costs>
+                        <eventData></eventData>
+                        <interfaces></interfaces>
+                    </custom>
+                </event>
+            </events>
+            <subProcesses></subProcesses>
+            <distribution></distribution>
+            <labels>
+                <label id="N" />
+                <label id="A" />
+                <label id="B" />
+                <label id="N2" />
+                <label id="C" />
+                <label id="D" />
+                <label id="N3" />
+                <label id="E" />
+                <label id="F" />
+            </labels>
+            <labelMappings>
+                <labelMapping eventId="Activity0" labelId="N"/>
+                <labelMapping eventId="Activity1" labelId="A"/>
+                <labelMapping eventId="Activity2" labelId="B"/>
+                <labelMapping eventId="Activity3" labelId="N2"/>
+                <labelMapping eventId="Activity4" labelId="C"/>
+                <labelMapping eventId="Activity5" labelId="D"/>
+                <labelMapping eventId="Activity6" labelId="N3"/>
+                <labelMapping eventId="Activity7" labelId="E"/>
+                <labelMapping eventId="Activity8" labelId="F"/>
+            </labelMappings>
+            <expressions></expressions>
+            <variables></variables>
+            <variableAccesses>
+                <writeAccesses />
+            </variableAccesses>
+            <custom>
+                <keywords></keywords>
+                <roles></roles>
+                <groups></groups>
+                <phases></phases>
+                <eventTypes></eventTypes>
+                <eventParameters></eventParameters>
+                <graphDetails>DCR Graph</graphDetails>
+                <graphFilters>
+                    <filteredGroups></filteredGroups>
+                    <filteredRoles></filteredRoles>
+                    <filteredPhases></filteredPhases>
+                </graphFilters>
+                <hightlighterMarkup id="HLM"></hightlighterMarkup>
+            </custom>
+        </resources>
+        <constraints>
+            <conditions>
+                <condition sourceId="Activity4" targetId="Activity0" filterLevel="0"  description=""  time=""  groups=""  />
+            </conditions>
+            <responses>
+                <response sourceId="Activity0" targetId="Activity3" filterLevel="0"  description=""  time=""  groups=""  />
+            </responses>
+            <excludes>
+                <exclude sourceId="Activity3" targetId="Activity4" filterLevel="0"  description=""  time=""  groups=""  />
+            </excludes>
+            <includes></includes>
+            <milestones></milestones>
+            <spawns></spawns>
+        </constraints>
+    </specification>
+    <runtime>
+        <custom>
+            <globalMarking></globalMarking>
+        </custom>
+        <marking>
+            <globalStore></globalStore>
+            <executed></executed>
+            <included>
+                <event id="Activity0" />
+                <event id="Activity1" />
+                <event id="Activity2" />
+                <event id="Activity3" />
+                <event id="Activity4" />
+                <event id="Activity5" />
+                <event id="Activity6" />
+                <event id="Activity7" />
+                <event id="Activity8" />
+            </included>
+            <pendingResponses></pendingResponses>
+        </marking>
+        <custom />
+    </runtime>
+</dcrgraph>

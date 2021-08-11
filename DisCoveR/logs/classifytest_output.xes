@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<string key="concept:name" value="XES Event Log - Filtered on concept:name"/>
+	<trace>
+		<string key="concept:name" value="Happy"/>
+		<boolean key="pdc:isPos" value="true"/>
+		<string key="concept:id" value="33484"/>
+		<event>
+			<string key="concept:id" value="UdfyldExpense"/>
+			<string key="concept:name" value="Fill out expense report"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:37:32.817+01:00"/>
+			<string key="org:role" value="Medarbejder"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Godkend"/>
+			<string key="concept:name" value="Approve"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:37:34.183+01:00"/>
+			<string key="org:role" value="Manager"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Udbetal"/>
+			<string key="concept:name" value="Payout"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:37:35.477+01:00"/>
+			<string key="org:role" value="Finans"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Manager changes his mind"/>
+		<boolean key="pdc:isPos" value="true"/>
+		<string key="concept:id" value="33485"/>
+		<event>
+			<string key="concept:id" value="UdfyldExpense"/>
+			<string key="concept:name" value="Fill out expense report"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:38:17.523+01:00"/>
+			<string key="org:role" value="Medarbejder"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Afvis"/>
+			<string key="concept:name" value="Reject"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:38:19.893+01:00"/>
+			<string key="org:role" value="Manager"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Godkend"/>
+			<string key="concept:name" value="Approve"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:38:21.407+01:00"/>
+			<string key="org:role" value="Manager"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Udbetal"/>
+			<string key="concept:name" value="Payout"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:38:23.840+01:00"/>
+			<string key="org:role" value="Finans"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Employee edit expense report"/>
+		<boolean key="pdc:isPos" value="false"/>
+		<string key="concept:id" value="33486"/>
+		<event>
+			<string key="concept:id" value="UdfyldExpense"/>
+			<string key="concept:name" value="Fill out expense report"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:39:47.963+01:00"/>
+			<string key="org:role" value="Medarbejder"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Godkend"/>
+			<string key="concept:name" value="Approve"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:39:49.937+01:00"/>
+			<string key="org:role" value="Manager"/>
+		</event>
+		<event>
+			<string key="concept:id" value="UdfyldExpense"/>
+			<string key="concept:name" value="Fill out expense report"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:39:51.217+01:00"/>
+			<string key="org:role" value="Medarbejder"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Godkend"/>
+			<string key="concept:name" value="Approve"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:39:52.870+01:00"/>
+			<string key="org:role" value="Manager"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Udbetal"/>
+			<string key="concept:name" value="Payout"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:39:54.187+01:00"/>
+			<string key="org:role" value="Finans"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Reject - edit - approve"/>
+		<boolean key="pdc:isPos" value="false"/>
+		<string key="concept:id" value="33487"/>
+		<event>
+			<string key="concept:id" value="UdfyldExpense"/>
+			<string key="concept:name" value="Fill out expense report"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:42:02.263+01:00"/>
+			<string key="org:role" value="Medarbejder"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Afvis"/>
+			<string key="concept:name" value="Reject"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:42:04.963+01:00"/>
+			<string key="org:role" value="Manager"/>
+		</event>
+		<event>
+			<string key="concept:id" value="UdfyldExpense"/>
+			<string key="concept:name" value="Fill out expense report"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:42:06.237+01:00"/>
+			<string key="org:role" value="Medarbejder"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Godkend"/>
+			<string key="concept:name" value="Approve"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:42:07.753+01:00"/>
+			<string key="org:role" value="Manager"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Udbetal"/>
+			<string key="concept:name" value="Payout"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:42:09.223+01:00"/>
+			<string key="org:role" value="Finans"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="Reject - redraw"/>
+		<boolean key="pdc:isPos" value="false"/>
+		<string key="concept:id" value="33488"/>
+		<event>
+			<string key="concept:id" value="UdfyldExpense"/>
+			<string key="concept:name" value="Fill out expense report"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:42:45.730+01:00"/>
+			<string key="org:role" value="Medarbejder"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Afvis"/>
+			<string key="concept:name" value="Reject"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:42:46.483+01:00"/>
+			<string key="org:role" value="Manager"/>
+		</event>
+		<event>
+			<string key="concept:id" value="Activity5"/>
+			<string key="concept:name" value="Redraw expense"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2019-02-15T10:42:48.347+01:00"/>
+			<string key="org:role" value="Medarbejder"/>
+		</event>
+	</trace>
+</log>
